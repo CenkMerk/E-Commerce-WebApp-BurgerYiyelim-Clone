@@ -1,7 +1,7 @@
 import { BsFillSignpost2Fill } from "react-icons/bs";
 import { FaInfo } from "react-icons/fa";
 import { ImSpoonKnife } from "react-icons/im";
-import { GoLocation } from "react-icons/go";
+import { IoLocationSharp } from "react-icons/io5";
 
 export const NavbarData = [
   {
@@ -21,7 +21,7 @@ export const NavbarData = [
   },
   {
     text: "CONTACT",
-    icon: <GoLocation size={25} />,
+    icon: <IoLocationSharp size={25} />,
     navigationKey: "/contact",
   },
 ];
