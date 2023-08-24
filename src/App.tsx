@@ -2,14 +2,15 @@ import "./App.css";
 import Router from "./Router";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
+import { Stack } from "@mui/material";
 
 function App() {
   return (
-    <div>
+    <Stack alignItems="center">
       <Navbar />
       <Router />
       <Footer />
-    </div>
+    </Stack>
   );
 }
 
