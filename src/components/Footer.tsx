@@ -1,4 +1,11 @@
-import { Button, Grid, IconButton, Stack, Typography,Box } from "@mui/material";
+import {
+  Button,
+  Grid,
+  IconButton,
+  Stack,
+  Typography,
+  Box,
+} from "@mui/material";
 import { styled } from "@mui/material/styles";
 import { FooterData } from "../constant/FooterData";
 import { useNavigate } from "react-router-dom";
@@ -30,8 +37,9 @@ const Footer = () => {
         <Grid item md={3} sm={6} xs={12}>
           <FooterTitle>LINKS</FooterTitle>
           <Stack>
-            {FooterData.map((item) => (
+            {FooterData.map((item, index) => (
               <FooterButton
+                key={index}
                 variant="text"
                 onClick={() => navigate(item.navigationKey)}
               >
@@ -60,13 +68,13 @@ const Footer = () => {
             </FooterText>
             <Box>
               <IconButton>
-                <GrFacebookOption color="#888888"/>
+                <GrFacebookOption color="#888888" />
               </IconButton>
               <IconButton>
-                <AiOutlineInstagram color="#888888"/>
+                <AiOutlineInstagram color="#888888" />
               </IconButton>
               <IconButton>
-                <TfiYoutube color="#888888"/>
+                <TfiYoutube color="#888888" />
               </IconButton>
             </Box>
           </Stack>
