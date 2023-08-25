@@ -25,7 +25,7 @@ const Footer = () => {
       width="100%"
       paddingY="40px"
     >
-      <Grid container sx={{ maxWidth: "1170px" }} spacing={6}>
+      <Grid container sx={{ maxWidth: "1170px",paddingX:"10px" }} spacing={6}>
         <Grid item md={3} sm={6} xs={12}>
           <FooterTitle>Burger Yiyelim</FooterTitle>
           <FooterText>

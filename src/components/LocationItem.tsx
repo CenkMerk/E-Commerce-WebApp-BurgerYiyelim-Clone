@@ -16,7 +16,11 @@ const LocationItem = ({
         <Typography variant="h6">{locationName}</Typography>
         <Typography variant="subtitle2">{address}</Typography>
       </Stack>
-      <Stack flexDirection="row" paddingRight="20px" gap="10px">
+      <Stack
+        flexDirection={{ sx: "column", sm: "row" }}
+        paddingRight="20px"
+        gap="10px"
+      >
         <DeliveryButton
           sx={{
             visibility: delivery ? "visible" : "hidden",
@@ -39,12 +43,16 @@ const ContainerStack = styled(Stack)({
   display: "flex",
   flexDirection: "row",
   width: "100%",
-  minHeight: "90px",
+  minHeight: "100px",
   justifyContent: "space-between",
   alignItems: "center",
   cursor: "pointer",
   "&:hover": {
     backgroundColor: "#e8e8e8",
+  },
+  borderBottom: "1px solid #e8e8e8",
+  ":last-child": {
+    borderBottom: "none",
   },
 });
 const DeliveryButton = styled(Button)({
