@@ -1,6 +1,6 @@
 export const LocationsData = [
   {
-    id: 1,
+    id: "1",
     city: "Eskişehir",
     location: [
       {
@@ -12,7 +12,7 @@ export const LocationsData = [
     ],
   },
   {
-    id: 2,
+    id: "2",
     city: "İstanbul",
     location: [
       {
@@ -60,7 +60,7 @@ export const LocationsData = [
     ],
   },
   {
-    id: 4,
+    id: "4",
     city: "Kocaeli",
     location: [
       {
@@ -78,7 +78,7 @@ export const LocationsData = [
     ],
   },
   {
-    id: 5,
+    id: "5",
     city: "Tekirdağ",
     location: [
       {

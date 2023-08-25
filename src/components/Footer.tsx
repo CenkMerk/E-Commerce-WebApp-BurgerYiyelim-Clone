@@ -5,8 +5,8 @@ import {
   Stack,
   Typography,
   Box,
+  styled,
 } from "@mui/material";
-import { styled } from "@mui/material/styles";
 import { FooterData } from "../constant/FooterData";
 import { useNavigate } from "react-router-dom";
 import { IoLocationSharp } from "react-icons/io5";
