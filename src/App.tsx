@@ -2,13 +2,33 @@ import "./App.css";
 import Router from "./Router";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
-import { Stack } from "@mui/material";
+import { Stack, Container } from "@mui/material";
 
 function App() {
   return (
-    <Stack alignItems="center">
+    <Stack
+      alignItems="center"
+      sx={{
+        alignItems: "center",
+        backgroundImage: "url('bg.png')",
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+        backgroundAttachment: "fixed",
+      }}
+    >
       <Navbar />
-      <Router />
+      <Container>
+        <Stack
+          sx={{
+            marginY: "50px",
+            padding: "20px",
+            backgroundColor: "white",
+            maxWidth: "1170px",
+          }}
+        >
+          <Router />
+        </Stack>
+      </Container>
       <Footer />
     </Stack>
   );
