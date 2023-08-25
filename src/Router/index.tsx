@@ -6,7 +6,7 @@ import FranchisingPage from "../pages/FranchisingPage";
 import HelalPage from "../pages/HelalPage";
 import HumanResourcesPage from "../pages/HumanResourcesPage";
 import ContactPage from "../pages/ContactPage";
-import ProductsPage from "../pages/ProductsPage";
+import ProductsPage from "../pages/ProductsPage/ProductsPage";
 
 const index = () => {
   return (
