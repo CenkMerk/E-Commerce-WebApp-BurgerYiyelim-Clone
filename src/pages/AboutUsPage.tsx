@@ -1,5 +1,4 @@
-import { Stack, Typography, Container } from "@mui/material";
-import React from "react";
+import { Stack, Typography } from "@mui/material";
 import { AboutUsTexts } from "../constant/AboutUsTexts";
 
 const AboutUsPage = () => {

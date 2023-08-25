@@ -6,7 +6,6 @@ import {
   Stack,
   MenuItem,
   Select,
-  Container,
 } from "@mui/material";
 import { LocationsData } from "../constant/LocationsData";
 import LocationsList from "../components/LocationsList";
