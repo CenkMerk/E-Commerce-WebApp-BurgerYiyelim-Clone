@@ -8,7 +8,7 @@ const LocationsList = ({ cityId }: LocationsListProps) => {
   );
   console.log(foundLocation);
   return (
-    <Stack border="1px solid #e8e8e8" borderRadius="2px" margin="10px">
+    <Stack border="1px solid #e8e8e8" borderRadius="2px" margin="20px">
       {foundLocation?.location.map((item, index) => (
         <LocationItem
           address={item.address}

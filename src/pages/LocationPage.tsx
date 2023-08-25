@@ -6,6 +6,7 @@ import {
   Stack,
   MenuItem,
   Select,
+  Container,
 } from "@mui/material";
 import { LocationsData } from "../constant/LocationsData";
 import LocationsList from "../components/LocationsList";
@@ -13,16 +14,10 @@ import LocationsList from "../components/LocationsList";
 const LocationPage = () => {
   const [selectedCity, setSelectedCity] = useState("2");
   return (
-    <Stack
-      bgcolor="white"
-      width="100%"
-      maxWidth="1170px"
-      marginY="50px"
-      borderRadius="2px"
-    >
+    <>
       <Stack
         bgcolor="#F5F5F5"
-        margin="10px"
+        margin="20px"
         borderRadius="2px"
         alignItems="center"
         paddingY="30px"
@@ -52,7 +47,7 @@ const LocationPage = () => {
       </Stack>
 
       <LocationsList cityId={selectedCity} />
-    </Stack>
+    </>
   );
 };
 

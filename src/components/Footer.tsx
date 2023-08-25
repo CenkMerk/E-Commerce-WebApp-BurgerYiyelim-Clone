@@ -22,7 +22,8 @@ const Footer = () => {
     <Stack
       bgcolor="#2b2b2b"
       alignItems="center"
-      sx={{ padding: { xs: "10px", md: "50px" } }}
+      width="100%"
+      paddingY="40px"
     >
       <Grid container sx={{ maxWidth: "1170px" }} spacing={6}>
         <Grid item md={3} sm={6} xs={12}>
