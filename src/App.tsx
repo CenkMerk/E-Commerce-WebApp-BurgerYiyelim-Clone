@@ -21,8 +21,6 @@ function App() {
         <Stack
           sx={{
             marginY: "50px",
-            padding: "20px",
-            backgroundColor: "white",
             maxWidth: "1170px",
           }}
         >
