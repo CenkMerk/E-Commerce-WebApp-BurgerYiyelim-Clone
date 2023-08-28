@@ -1,25 +1,3 @@
-import Cheeseburger from "../../public/cheeseburger.jpg";
-import Citirpeynir from "../../public/citirpeynir4adet.jpg";
-import Cola from "../../public/cola.jpg";
-import Efsanatavukburgermenu from "../../public/efsanatavukburgermenu.jpg";
-import Falafelbomba from "../../public/falafelbomba.png";
-import Fanta from "../../public/fanta.jpg";
-import Kankamenu from "../../public/kankamenu.jpg";
-import Kasapburger from "../../public/kasapburger.jpg";
-import Magnolia from "../../public/magnolia.png";
-import Mediumburger from "../../public/mediumburger.jpg";
-import Mediumburgermenu from "../../public/mediumburgermenu.jpg";
-import Mediumcheeseburger from "../../public/mediumcheeseburger.jpg";
-import Mediumcheeseburgermenu from "../../public/mediumcheeseburgermenu.jpg";
-import Mediumkasapburger from "../../public/mediumkasapburger.jpg";
-import Mexicanburger from "../../public/mexicanburger.jpg";
-import Nugget from "../../public/nugget4adet.png";
-import Nuggetbomba from "../../public/nuggetbomba.png";
-import Patetesbomba from "../../public/patetesbomba.png";
-import Soganhalkasi from "../../public/soganhalkasi6adet.jpg";
-import Sprite from "../../public/sprite.jpg";
-import Super3luetmenu from "../../public/super3luetmenu.jpg";
-import Super3lutavukmenu from "../../public/super3lutavukmenu.jpg";
 import { ImSpoonKnife } from "react-icons/im";
 import { IoFastFoodOutline } from "react-icons/io5";
 import { GiHamburger } from "react-icons/gi";
@@ -38,21 +16,21 @@ export const ProductsData = [
         quantity: 1,
         productName: "Patetes Bomba",
         price: "50",
-        img: <Patetesbomba />,
+        img: "patetesbomba.png",
       },
       {
         id: Math.round(Math.random() * 999999),
         quantity: 1,
         productName: "Falafel Bomba",
         price: "52",
-        img: <Falafelbomba />,
+        img: "falafelbomba.png",
       },
       {
         id: Math.round(Math.random() * 999999),
         quantity: 1,
         productName: "Nugget Bomba",
         price: "55",
-        img: <Nuggetbomba />,
+        img: "nuggetbomba.png",
       },
     ],
   },
@@ -66,21 +44,21 @@ export const ProductsData = [
         quantity: 1,
         productName: "Kanka Menü",
         price: "220",
-        img: <Kankamenu />,
+        img: "kankamenu.jpg",
       },
       {
         id: Math.round(Math.random() * 999999),
         quantity: 1,
         productName: "Süper 3lü Tavuk Menü",
         price: "320",
-        img: <Super3lutavukmenu />,
+        img: "super3lutavukmenu.jpg",
       },
       {
         id: Math.round(Math.random() * 999999),
         quantity: 1,
         productName: "Süper 3lü Et Menü",
         price: "330",
-        img: <Super3luetmenu />,
+        img: "super3luetmenu.jpg",
       },
     ],
   },
@@ -94,21 +72,21 @@ export const ProductsData = [
         quantity: 1,
         productName: "Efsana Tavuk Burger Menü",
         price: "122",
-        img: <Efsanatavukburgermenu />,
+        img: "efsanatavukburgermenu",
       },
       {
         id: Math.round(Math.random() * 999999),
         quantity: 1,
         productName: "Medium Burger Menü",
         price: "122",
-        img: <Mediumburgermenu />,
+        img: "mediumburgermenu.jpg",
       },
       {
         id: Math.round(Math.random() * 999999),
         quantity: 1,
         productName: "Medium Cheese Burger Menü",
         price: "128",
-        img: <Mediumcheeseburgermenu />,
+        img: "mediumcheeseburgermenu.jpg",
       },
     ],
   },
@@ -122,21 +100,21 @@ export const ProductsData = [
         quantity: 1,
         productName: "Medium Burger",
         price: "98",
-        img: <Mediumburger />,
+        img: "mediumburger.jpg",
       },
       {
         id: Math.round(Math.random() * 999999),
         quantity: 1,
         productName: "Medium Cheese Burger",
         price: "104",
-        img: <Mediumcheeseburger />,
+        img: "mediumcheeseburger.jpg",
       },
       {
         id: Math.round(Math.random() * 999999),
         quantity: 1,
         productName: "Medium Kasap Burger",
         price: "106",
-        img: <Mediumkasapburger />,
+        img: "mediumkasapburger.jpg",
       },
     ],
   },
@@ -150,21 +128,21 @@ export const ProductsData = [
         quantity: 1,
         productName: "Nugget (4 Adet)",
         price: "30",
-        img: <Nugget />,
+        img: "nugget4adet.png",
       },
       {
         id: Math.round(Math.random() * 999999),
         quantity: 1,
         productName: "Çıtır Peynir (4 Adet)",
         price: "37",
-        img: <Citirpeynir />,
+        img: "citirpeynir4adet.jpg",
       },
       {
         id: Math.round(Math.random() * 999999),
         quantity: 1,
         productName: "Soğan Halkası",
         price: "6 Adet",
-        img: <Soganhalkasi />,
+        img: "soganhalkasi6adet.jpg",
       },
     ],
   },
@@ -178,21 +156,21 @@ export const ProductsData = [
         quantity: 1,
         productName: "Magnolia Oreolu",
         price: "32",
-        img: <Magnolia />,
+        img: "magnolia.png",
       },
       {
         id: Math.round(Math.random() * 999999),
         quantity: 1,
         productName: "Magnolia Muzlu",
         price: "32",
-        img: <Magnolia />,
+        img: "magnolia.png",
       },
       {
         id: Math.round(Math.random() * 999999),
         quantity: 1,
         productName: "Magnolia Çilekli",
         price: "32",
-        img: <Magnolia />,
+        img: "magnolia.png",
       },
     ],
   },
@@ -206,21 +184,21 @@ export const ProductsData = [
         quantity: 1,
         productName: "Coca-Cola",
         price: "27",
-        img: <Cola />,
+        img: "cola.jpg",
       },
       {
         id: Math.round(Math.random() * 999999),
         quantity: 1,
         productName: "Sprite",
         price: "27",
-        img: <Sprite />,
+        img: "sprite.jpg",
       },
       {
         id: Math.round(Math.random() * 999999),
         quantity: 1,
         productName: "Fanta",
         price: "27",
-        img: <Fanta />,
+        img: "fanta.jpg",
       },
     ],
   },
