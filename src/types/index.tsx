@@ -16,7 +16,7 @@ export interface CartState {
 
 export interface CartItem {
   id: number;
-  title: string;
+  productName: string;
   price: number;
   img: string;
   quantity: number;

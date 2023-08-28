@@ -22,7 +22,7 @@ const cartSlice = createSlice({
           ...state.selectItems,
           {
             id: action.payload.id,
-            title: action.payload.title,
+            productName: action.payload.productName,
             price: action.payload.price,
             quantity: action.payload.quantity,
             img: action.payload.img,
