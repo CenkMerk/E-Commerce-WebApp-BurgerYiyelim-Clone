@@ -1,8 +1,11 @@
 import { IconButton, Stack, Typography, styled } from "@mui/material";
 import { ProductsData } from "../constant/ProductsData";
 import { AiOutlinePlus } from "react-icons/ai";
+import { useDispatch } from "react-redux";
+import { addItem } from "../redux/cartSlice";
 
 const Products = () => {
+  const dispatch = useDispatch();
   return (
     <Stack gap="20px">
       {ProductsData.map((item, index) => (
@@ -19,7 +22,7 @@ const Products = () => {
           <Stack flexDirection={{ xs: "column", sm: "row" }} gap="10px">
             {item.products.map((product, index) => (
               <ProductStack key={index}>
-                <img src={product.img.type} alt="" width="100%" />
+                <img src={`${product.img}`} alt="" width="100%" />
                 <Typography variant="subtitle1">
                   {product.productName}
                 </Typography>
@@ -29,7 +32,10 @@ const Products = () => {
                   justifyContent="space-between"
                 >
                   <Typography variant="h6">₺{product.price}</Typography>
-                  <AddButton aria-label="Add">
+                  <AddButton
+                    aria-label="Add"
+                    onClick={() => dispatch(addItem(product))}
+                  >
                     <AiOutlinePlus />
                   </AddButton>
                 </Stack>
