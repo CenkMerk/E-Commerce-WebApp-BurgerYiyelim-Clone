@@ -35,18 +35,21 @@ export const ProductsData = [
     products: [
       {
         id: Math.round(Math.random() * 999999),
+        quantity: 1,
         productName: "Patetes Bomba",
         price: "50",
         img: <Patetesbomba />,
       },
       {
         id: Math.round(Math.random() * 999999),
+        quantity: 1,
         productName: "Falafel Bomba",
         price: "52",
         img: <Falafelbomba />,
       },
       {
         id: Math.round(Math.random() * 999999),
+        quantity: 1,
         productName: "Nugget Bomba",
         price: "55",
         img: <Nuggetbomba />,
@@ -60,18 +63,21 @@ export const ProductsData = [
     products: [
       {
         id: Math.round(Math.random() * 999999),
+        quantity: 1,
         productName: "Kanka Menü",
         price: "220",
         img: <Kankamenu />,
       },
       {
         id: Math.round(Math.random() * 999999),
+        quantity: 1,
         productName: "Süper 3lü Tavuk Menü",
         price: "320",
         img: <Super3lutavukmenu />,
       },
       {
         id: Math.round(Math.random() * 999999),
+        quantity: 1,
         productName: "Süper 3lü Et Menü",
         price: "330",
         img: <Super3luetmenu />,
@@ -85,18 +91,21 @@ export const ProductsData = [
     products: [
       {
         id: Math.round(Math.random() * 999999),
+        quantity: 1,
         productName: "Efsana Tavuk Burger Menü",
         price: "122",
         img: <Efsanatavukburgermenu />,
       },
       {
         id: Math.round(Math.random() * 999999),
+        quantity: 1,
         productName: "Medium Burger Menü",
         price: "122",
         img: <Mediumburgermenu />,
       },
       {
         id: Math.round(Math.random() * 999999),
+        quantity: 1,
         productName: "Medium Cheese Burger Menü",
         price: "128",
         img: <Mediumcheeseburgermenu />,
@@ -110,18 +119,21 @@ export const ProductsData = [
     products: [
       {
         id: Math.round(Math.random() * 999999),
+        quantity: 1,
         productName: "Medium Burger",
         price: "98",
         img: <Mediumburger />,
       },
       {
         id: Math.round(Math.random() * 999999),
+        quantity: 1,
         productName: "Medium Cheese Burger",
         price: "104",
         img: <Mediumcheeseburger />,
       },
       {
         id: Math.round(Math.random() * 999999),
+        quantity: 1,
         productName: "Medium Kasap Burger",
         price: "106",
         img: <Mediumkasapburger />,
@@ -135,18 +147,21 @@ export const ProductsData = [
     products: [
       {
         id: Math.round(Math.random() * 999999),
+        quantity: 1,
         productName: "Nugget (4 Adet)",
         price: "30",
         img: <Nugget />,
       },
       {
         id: Math.round(Math.random() * 999999),
+        quantity: 1,
         productName: "Çıtır Peynir (4 Adet)",
         price: "37",
         img: <Citirpeynir />,
       },
       {
         id: Math.round(Math.random() * 999999),
+        quantity: 1,
         productName: "Soğan Halkası",
         price: "6 Adet",
         img: <Soganhalkasi />,
@@ -160,18 +175,21 @@ export const ProductsData = [
     products: [
       {
         id: Math.round(Math.random() * 999999),
+        quantity: 1,
         productName: "Magnolia Oreolu",
         price: "32",
         img: <Magnolia />,
       },
       {
         id: Math.round(Math.random() * 999999),
+        quantity: 1,
         productName: "Magnolia Muzlu",
         price: "32",
         img: <Magnolia />,
       },
       {
         id: Math.round(Math.random() * 999999),
+        quantity: 1,
         productName: "Magnolia Çilekli",
         price: "32",
         img: <Magnolia />,
@@ -185,18 +203,21 @@ export const ProductsData = [
     products: [
       {
         id: Math.round(Math.random() * 999999),
+        quantity: 1,
         productName: "Coca-Cola",
         price: "27",
         img: <Cola />,
       },
       {
         id: Math.round(Math.random() * 999999),
+        quantity: 1,
         productName: "Sprite",
         price: "27",
         img: <Sprite />,
       },
       {
         id: Math.round(Math.random() * 999999),
+        quantity: 1,
         productName: "Fanta",
         price: "27",
         img: <Fanta />,
