@@ -72,7 +72,7 @@ export const ProductsData = [
         quantity: 1,
         productName: "Efsana Tavuk Burger Menü",
         price: "122",
-        img: "efsanatavukburgermenu",
+        img: "efsanatavukburgermenu.jpg",
       },
       {
         id: Math.round(Math.random() * 999999),

@@ -26,7 +26,7 @@ const TabsLink = styled(Link)({
   padding: "10px",
   borderBottom: "1px solid #eaebeb",
   ":hover": {
-    color: "#f30",
+  opacity:"0.8"
   },
 });
 export default TabsXS;

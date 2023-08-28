@@ -1,5 +1,12 @@
-body{
+body {
   margin: 0px;
   background-color: #e8e8e8;
   box-sizing: border-box;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 5px;
 }
