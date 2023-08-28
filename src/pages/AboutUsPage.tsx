@@ -3,7 +3,7 @@ import { AboutUsTexts } from "../constant/AboutUsTexts";
 
 const AboutUsPage = () => {
   return (
-    <>
+    <Stack bgcolor="white" padding="20px">
       <Stack position="relative">
         <img src="hakkimizdaimg.png" alt="" />
         <Typography
@@ -29,7 +29,7 @@ const AboutUsPage = () => {
         <Typography variant="h6">KÖFTELERİNİZ HELAL Mİ?</Typography>
         <Typography variant="body2">{AboutUsTexts[6]}</Typography>
       </Stack>
-    </>
+    </Stack>
   );
 };
 
