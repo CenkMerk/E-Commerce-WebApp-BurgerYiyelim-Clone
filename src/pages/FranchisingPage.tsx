@@ -2,15 +2,15 @@ import { Button, Stack, TextField, Typography, styled } from "@mui/material";
 
 const FranchisingPage = () => {
   return (
-    <>
+    <Stack bgcolor="white" padding="20px">
       <Stack position="relative">
         <img src="franchising.jpg" alt="" />
         <Typography
-          variant="h2"
           color="white"
           position="absolute"
           bottom="-15px"
           right="0px"
+          fontSize={{ xs: "40px", sm: "70px" }}
         >
           FRANCHISING
         </Typography>
@@ -32,7 +32,7 @@ const FranchisingPage = () => {
         </Stack>
         <SendButton>Send</SendButton>
       </Stack>
-    </>
+    </Stack>
   );
 };
 const FormInput = styled(TextField)({
@@ -61,7 +61,7 @@ const SendButton = styled(Button)({
   padding: "10px 0px",
   fontWeight: "700",
   fontSize: "18px",
-  marginTop:"20px",
+  marginTop: "20px",
   ":hover": {
     backgroundColor: "#db1e38",
     opacity: "0.9",
