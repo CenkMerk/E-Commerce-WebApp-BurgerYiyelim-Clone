@@ -1,7 +1,11 @@
+//material ui
 import { Container, Toolbar } from "@mui/material";
+//components
 import NavbarXS from "../NavbarXS/NavbarXS";
 import NavbarMD from "../NavbarMD/NavbarMD";
+//navigate
 import { useNavigate } from "react-router-dom";
+//style
 import { OrderButton, AppBarContainer, BoxContainer } from "./style";
 const Navbar = () => {
   const navigate = useNavigate();

@@ -1,5 +1,8 @@
+//data
 import { HomePageData } from "../../constant/HomePageData";
+//material ui
 import { Box, Grid, Stack, Typography } from "@mui/material";
+//navigation
 import { useNavigate } from "react-router-dom";
 
 const HomePage = () => {

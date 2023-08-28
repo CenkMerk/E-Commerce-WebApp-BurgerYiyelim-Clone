@@ -6,12 +6,14 @@ import { AiOutlineShoppingCart } from "react-icons/ai";
 //material ui
 import Badge from "@mui/material/Badge";
 //redux
-import { useDispatch } from "react-redux";
-import { useSelector } from "react-redux";
+import { useDispatch,useSelector } from "react-redux";
 import { RootState } from "../../redux/store";
-import { Stack, Typography, Box, IconButton } from "@mui/material";
 import { increase, descrease, removeItem } from "../../redux/cartSlice";
+//material ui
+import { Stack, Typography, Box, IconButton } from "@mui/material";
+//component
 import CompletePayment from "../CompletePayment/CompletePayment";
+//style
 import { CloseButton, CustomDrawer, DrawerButton, ItemBox } from "./style";
 
 const ShoppingCartXS = () => {

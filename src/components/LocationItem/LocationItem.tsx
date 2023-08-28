@@ -1,6 +1,10 @@
+//navigate
 import { useNavigate } from "react-router-dom";
+//types
 import { LocationItemProps } from "../../types";
+//material ui
 import { Stack, Typography } from "@mui/material";
+//style
 import { ContainerStack, DeliveryButton, PickupButton } from "./style";
 const LocationItem = ({
   address,

@@ -1,4 +1,6 @@
+//material ui
 import { Stack, Typography } from "@mui/material";
+//data
 import { AboutUsTexts } from "../../constant/AboutUsTexts";
 
 const AboutUsPage = () => {

@@ -1,4 +1,6 @@
+//material ui
 import { Stack, Typography } from "@mui/material";
+//style
 import { FormInput, SendButton, StackContainer } from "./style";
 const ContactPage = () => {
   return (

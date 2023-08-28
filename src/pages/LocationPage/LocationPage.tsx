@@ -1,4 +1,5 @@
 import { useState } from "react";
+//material ui
 import {
   FormControl,
   InputLabel,
@@ -7,8 +8,11 @@ import {
   MenuItem,
   Select,
 } from "@mui/material";
+//data
 import { LocationsData } from "../../constant/LocationsData";
+//component
 import LocationsList from "../../components/LocationsList/LocationsList";
+//style
 import { StackContainer } from "./style";
 
 const LocationPage = () => {

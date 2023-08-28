@@ -1,10 +1,14 @@
+//material ui
 import { Stack, Typography } from "@mui/material";
-import { useSelector } from "react-redux";
+//redux
+import { useSelector,useDispatch } from "react-redux";
 import { RootState } from "../../redux/store";
-import { AiOutlinePlus, AiOutlineMinus, AiOutlineDelete } from "react-icons/ai";
-import { useDispatch } from "react-redux";
 import { increase, descrease, removeItem } from "../../redux/cartSlice";
+//icon
+import { AiOutlinePlus, AiOutlineMinus, AiOutlineDelete } from "react-icons/ai";
+//style
 import { CartButton, StackContainer } from "./style";
+//components
 import EmptyCart from "./EmptyCart";
 import CompletePayment from "../CompletePayment/CompletePayment";
 

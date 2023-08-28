@@ -1,11 +1,16 @@
+//öaterial ui
 import { Grid, IconButton, Stack, Box } from "@mui/material";
+//data
 import { FooterData } from "../../constant/FooterData";
+//navigate
 import { useNavigate } from "react-router-dom";
+//icons
 import { IoLocationSharp } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
 import { GrFacebookOption } from "react-icons/gr";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { TfiYoutube } from "react-icons/tfi";
+//style
 import { FooterButton, FooterText, FooterTitle, StackContainer } from "./style";
 
 const Footer = () => {

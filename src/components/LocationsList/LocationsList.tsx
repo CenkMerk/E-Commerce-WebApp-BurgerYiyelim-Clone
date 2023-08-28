@@ -1,6 +1,10 @@
+//types
 import { LocationsListProps } from "../../types";
+//data
 import { LocationsData } from "../../constant/LocationsData";
+//component
 import LocationItem from "../LocationItem/LocationItem";
+//style
 import { StackContainer } from "./style";
 
 const LocationsList = ({ cityId }: LocationsListProps) => {

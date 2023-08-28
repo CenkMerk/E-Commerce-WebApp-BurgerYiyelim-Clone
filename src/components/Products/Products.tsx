@@ -1,8 +1,13 @@
+//material ui
 import { Stack, Typography } from "@mui/material";
+//data
 import { ProductsData } from "../../constant/ProductsData";
+//icon
 import { AiOutlinePlus } from "react-icons/ai";
+//redux
 import { useDispatch } from "react-redux";
 import { addItem } from "../../redux/cartSlice";
+//style
 import { AddButton, ProductStack, StackContainer } from "./style";
 
 const Products = () => {

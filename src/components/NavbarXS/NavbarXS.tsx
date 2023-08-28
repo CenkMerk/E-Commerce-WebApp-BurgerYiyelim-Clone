@@ -1,8 +1,13 @@
-import { Menu, MenuItem, Typography } from "@mui/material";
-import { GiHamburgerMenu } from "react-icons/gi";
 import React from "react";
+//material ui
+import { Menu, MenuItem, Typography } from "@mui/material";
+//icon
+import { GiHamburgerMenu } from "react-icons/gi";
+//data
 import { NavbarData } from "../../constant/NavbarData";
+//navigation
 import { useNavigate } from "react-router-dom";
+//style
 import { MenuButton, BoxContainer } from "./style";
 
 const NavbarXS = () => {

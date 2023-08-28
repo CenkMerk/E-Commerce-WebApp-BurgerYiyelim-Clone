@@ -1,5 +1,8 @@
+//data
 import { ProductsData } from "../../constant/ProductsData";
+//material ui
 import { Stack, Typography } from "@mui/material";
+//style
 import { TabsLink, StackContainer } from "./style";
 
 const TabsXS = () => {

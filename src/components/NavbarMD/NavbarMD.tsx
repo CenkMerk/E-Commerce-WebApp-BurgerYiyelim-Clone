@@ -1,9 +1,13 @@
+//data
 import { NavbarData } from "../../constant/NavbarData";
+//navigation
 import { useNavigate } from "react-router-dom";
+//style
 import { NavbarButton, BoxContainer } from "./style";
 
 const NavbarMD = () => {
   const navigate = useNavigate();
+  
   return (
     <BoxContainer sx={{ display: { xs: "none", md: "flex" } }}>
       {NavbarData.map((item) => (

@@ -1,13 +1,16 @@
+//material ui
 import { Stack, Typography } from "@mui/material";
-import { useDispatch } from "react-redux";
-import { useSelector } from "react-redux";
+//redux
+import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "../../redux/store";
 import { clearCart } from "../../redux/cartSlice";
+//style
 import { PaymentButton } from "./style";
 
 const CompletePayment = () => {
   const total = useSelector((state: RootState) => state.cart.total);
   const dispatch = useDispatch();
+  
   const HandleClick = () => {
     dispatch(clearCart());
     alert(`Amount Paid: ₺ ${total}`);
