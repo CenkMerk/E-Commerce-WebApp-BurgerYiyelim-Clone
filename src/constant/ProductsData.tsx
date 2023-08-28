@@ -1,25 +1,25 @@
-import Cheeseburger from "cheeseburger.jpg";
-import Citirpeynir from "citirpeynir4adet.jpg";
-import Cola from "cola.jpg";
-import Efsanatavukburgermenu from "efsanatavukburgermenu.jpg";
-import Falafelbomba from "falafelbomba.png";
-import Fanta from "fanta.jpg";
-import Kankamenu from "kankamenu.jpg";
-import Kasapburger from "kasapburger.jpg";
-import Magnolia from "magnolia.png";
-import Mediumburger from "mediumburger.jpg";
-import Mediumburgermenu from "mediumburgermenu.jpg";
-import Mediumcheeseburger from "mediumcheeseburger.jpg";
-import Mediumcheeseburgermenu from "mediumcheeseburgermenu.jpg";
-import Mediumkasapburger from "mediumkasapburger.jpg";
-import Mexicanburger from "mexicanburger.jpg";
-import Nugget from "nugget4adet.png";
-import Nuggetbomba from "nuggetbomba.png";
-import Patetesbomba from "patetesbomba.png";
-import Soganhalkasi from "soganhalkasi6adet.jpg";
-import Sprite from "sprite.jpg";
-import Super3luetmenu from "super3luetmenu.jpg";
-import Super3lutavukmenu from "super3lutavukmenu.jpg";
+import Cheeseburger from "../../public/cheeseburger.jpg";
+import Citirpeynir from "../../public/citirpeynir4adet.jpg";
+import Cola from "../../public/cola.jpg";
+import Efsanatavukburgermenu from "../../public/efsanatavukburgermenu.jpg";
+import Falafelbomba from "../../public/falafelbomba.png";
+import Fanta from "../../public/fanta.jpg";
+import Kankamenu from "../../public/kankamenu.jpg";
+import Kasapburger from "../../public/kasapburger.jpg";
+import Magnolia from "../../public/magnolia.png";
+import Mediumburger from "../../public/mediumburger.jpg";
+import Mediumburgermenu from "../../public/mediumburgermenu.jpg";
+import Mediumcheeseburger from "../../public/mediumcheeseburger.jpg";
+import Mediumcheeseburgermenu from "../../public/mediumcheeseburgermenu.jpg";
+import Mediumkasapburger from "../../public/mediumkasapburger.jpg";
+import Mexicanburger from "../../public/mexicanburger.jpg";
+import Nugget from "../../public/nugget4adet.png";
+import Nuggetbomba from "../../public/nuggetbomba.png";
+import Patetesbomba from "../../public/patetesbomba.png";
+import Soganhalkasi from "../../public/soganhalkasi6adet.jpg";
+import Sprite from "../../public/sprite.jpg";
+import Super3luetmenu from "../../public/super3luetmenu.jpg";
+import Super3lutavukmenu from "../../public/super3lutavukmenu.jpg";
 import { ImSpoonKnife } from "react-icons/im";
 import { IoFastFoodOutline } from "react-icons/io5";
 import { GiHamburger } from "react-icons/gi";
@@ -31,7 +31,7 @@ export const ProductsData = [
   {
     id: 1,
     categoryName: "Patetes Bomb",
-    icon: <ImSpoonKnife size={18} />,
+    icon: <ImSpoonKnife size={25} />,
     products: [
       {
         id: Math.round(Math.random() * 999999),
@@ -56,7 +56,7 @@ export const ProductsData = [
   {
     id: 2,
     categoryName: "Super Menus",
-    icon: <IoFastFoodOutline size={18} />,
+    icon: <IoFastFoodOutline size={25} />,
     products: [
       {
         id: Math.round(Math.random() * 999999),
@@ -80,8 +80,8 @@ export const ProductsData = [
   },
   {
     id: 3,
-    categoryName: "Advantageous Menus",
-    icon: <IoFastFoodOutline size={18} />,
+    categoryName: "Popular Menus",
+    icon: <IoFastFoodOutline size={25} />,
     products: [
       {
         id: Math.round(Math.random() * 999999),
@@ -106,7 +106,7 @@ export const ProductsData = [
   {
     id: 4,
     categoryName: "Burgers",
-    icon: <GiHamburger size={18} />,
+    icon: <GiHamburger size={25} />,
     products: [
       {
         id: Math.round(Math.random() * 999999),
@@ -126,30 +126,12 @@ export const ProductsData = [
         price: "106",
         img: <Mediumkasapburger />,
       },
-      {
-        id: Math.round(Math.random() * 999999),
-        productName: "Cheese Burger",
-        price: "119",
-        img: <Cheeseburger />,
-      },
-      {
-        id: Math.round(Math.random() * 999999),
-        productName: "Kasap Burger",
-        price: "122",
-        img: <Kasapburger />,
-      },
-      {
-        id: Math.round(Math.random() * 999999),
-        productName: "Mexicano Burger",
-        price: "122",
-        img: <Mexicanburger />,
-      },
     ],
   },
   {
     id: 5,
     categoryName: "Snacks",
-    icon: <TbSalad size={18} />,
+    icon: <TbSalad size={25} />,
     products: [
       {
         id: Math.round(Math.random() * 999999),
@@ -174,7 +156,7 @@ export const ProductsData = [
   {
     id: 6,
     categoryName: "Ice Creams",
-    icon: <CiIceCream size={18} />,
+    icon: <CiIceCream size={25} />,
     products: [
       {
         id: Math.round(Math.random() * 999999),
@@ -199,7 +181,7 @@ export const ProductsData = [
   {
     id: 7,
     categoryName: "Beverages",
-    icon: <GiSodaCan size={18} />,
+    icon: <GiSodaCan size={25} />,
     products: [
       {
         id: Math.round(Math.random() * 999999),
