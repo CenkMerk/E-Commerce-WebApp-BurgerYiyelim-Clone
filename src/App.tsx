@@ -1,7 +1,6 @@
-import "./App.css";
 import Router from "./Router";
-import Footer from "./components/Footer";
-import Navbar from "./components/Navbar";
+import Footer from "./components/Footer/Footer";
+import Navbar from "./components/Navbar/Navbar";
 import { Stack, Container } from "@mui/material";
 import { useDispatch, useSelector } from "react-redux";
 import { calculateTotal } from "./redux/cartSlice";

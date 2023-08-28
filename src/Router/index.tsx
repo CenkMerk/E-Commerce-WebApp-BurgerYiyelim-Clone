@@ -1,12 +1,12 @@
 import { Routes, Route } from "react-router-dom";
-import HomePage from "../pages/HomePage";
-import LocationPage from "../pages/LocationPage";
-import AboutUsPage from "../pages/AboutUsPage";
-import FranchisingPage from "../pages/FranchisingPage";
-import HelalPage from "../pages/HelalPage";
-import HumanResourcesPage from "../pages/HumanResourcesPage";
-import ContactPage from "../pages/ContactPage";
-import ProductsPage from "../pages/ProductsPage";
+import HomePage from "../pages/HomePage/HomePage";
+import LocationPage from "../pages/LocationPage/LocationPage";
+import AboutUsPage from "../pages/AboutUsPage/AboutUsPage";
+import FranchisingPage from "../pages/FranchisingPage/FranchisingPage";
+import HelalPage from "../pages/HelalPage/HelalPage";
+import HumanResourcesPage from "../pages/HumanResourcesPage/HumanResourcesPage";
+import ContactPage from "../pages/ContactPage/ContactPage";
+import ProductsPage from "../pages/ProductsPage/ProductsPage";
 
 const index = () => {
   return (
