@@ -15,4 +15,8 @@ export const FooterData = [
     text: "HR",
     navigationKey: "/human-resources",
   },
+  {
+    text: "Halal",
+    navigationKey: "/helal",
+  },
 ];
