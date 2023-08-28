@@ -13,7 +13,7 @@ import LocationsList from "../components/LocationsList";
 const LocationPage = () => {
   const [selectedCity, setSelectedCity] = useState("2");
   return (
-    <>
+    <Stack bgcolor="white" padding="20px">
       <Stack
         bgcolor="#F5F5F5"
         margin="20px"
@@ -46,7 +46,7 @@ const LocationPage = () => {
       </Stack>
 
       <LocationsList cityId={selectedCity} />
-    </>
+    </Stack>
   );
 };
 

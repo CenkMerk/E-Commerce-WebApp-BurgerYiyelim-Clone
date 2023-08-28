@@ -2,11 +2,11 @@ import { Button, Stack, TextField, Typography, styled } from "@mui/material";
 
 const HumanResourcesPage = () => {
   return (
-    <>
+    <Stack bgcolor="white" padding="20px">
       <Stack position="relative">
         <img src="hr.png" alt="" />
         <Typography
-          variant="h2"
+          fontSize={{ xs: "40px", sm: "70px" }}
           color="white"
           position="absolute"
           bottom="-15px"
@@ -33,7 +33,7 @@ const HumanResourcesPage = () => {
         </Stack>
         <SendButton>Send</SendButton>
       </Stack>
-    </>
+    </Stack>
   );
 };
 const FormInput = styled(TextField)({
