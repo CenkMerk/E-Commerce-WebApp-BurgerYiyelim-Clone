@@ -2,7 +2,7 @@ import { Button, Stack, TextField, Typography, styled } from "@mui/material";
 
 const ContactPage = () => {
   return (
-    <Stack color="#db1e38" gap="20px">
+    <Stack color="#db1e38" gap="20px" bgcolor="white" padding="20px">
       <Typography variant="h4" gutterBottom>
         Burger Yiyelim
       </Typography>
