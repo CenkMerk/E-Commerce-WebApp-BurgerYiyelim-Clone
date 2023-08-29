@@ -1,4 +1,4 @@
-import { IconButton, Stack, styled, Button } from "@mui/material";
+import { IconButton, Stack, styled } from "@mui/material";
 
 export const StackContainer = styled(Stack)({
   backgroundColor: "white",

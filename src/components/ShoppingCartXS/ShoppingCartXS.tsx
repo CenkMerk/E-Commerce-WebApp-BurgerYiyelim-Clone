@@ -10,7 +10,7 @@ import { useDispatch,useSelector } from "react-redux";
 import { RootState } from "../../redux/store";
 import { increase, descrease, removeItem } from "../../redux/cartSlice";
 //material ui
-import { Stack, Typography, Box, IconButton } from "@mui/material";
+import { Stack, Typography, IconButton } from "@mui/material";
 //component
 import CompletePayment from "../CompletePayment/CompletePayment";
 //style

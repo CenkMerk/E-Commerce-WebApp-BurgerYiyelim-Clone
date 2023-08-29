@@ -1,4 +1,4 @@
-import { Link, Stack, Typography, styled } from "@mui/material";
+import { Link, Stack, styled } from "@mui/material";
 
 export const StackContainer = styled(Stack)({
   backgroundColor: "white",
