@@ -2,7 +2,7 @@
 
 This project is a clone of the "getir.com" e-commerce website developed using React and TypeScript. The UI/UX design is created using Material UI. Users can select products from a list of available items and add them to the shopping cart. They can also perform actions such as removing items, increasing or decreasing quantities within the cart.
 
-**To View the Live Project:** [Click Here](https://shopping-cart-webapp-cenkmerk.netlify.app/)
+**To View the Live Project:** [Click Here](https://e-commerce-wepapp-burgeryiyelim-clone.netlify.app/)
 
 ## 🚀 Technologies Used
 
