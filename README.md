@@ -25,5 +25,5 @@ This project is a clone of the "burgeryiyelim.com" e-commerce website developed 
 
 ## 🤝  Contribution
 
-If you'd like to contribute, please fork the repository and open a pull request. I'm open to fixes, features, and improvements anytime.
+If you'd like to contribute, please fork the repository and open a pull request. I'm open to fixes, features, and improvements anytime.a
 
